@@ -4,3 +4,7 @@ python:
 - 2.7
 - 3.4
 script: py.test -v
+notifications :
+  webhook :
+ - https://microsoft.webhook.office.com/webhookb2/6fe6ba21-9f30-427b-a6f0-6d5d4c9b2080@8ba242df-e59a-4f8b-b679-6abaf9a39135/TravisCI/e048e31154624490b9542136558fe679/03d8b73d-e39d-480b-92dc-fc79e94d72fc
+    
